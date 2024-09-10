@@ -1,0 +1,73 @@
+.formPost{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.containerposts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    border: 1px solid #ffffff;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+  }
+  
+  .cardTitle {
+    text-align: center;
+  }
+  
+  .author {
+    text-align: center;
+  }
+  
+  .description {
+    text-align: center;
+  }
+  
+  .figcaption {
+    background-color: #838486;
+    color: #333;
+    padding: 12px;
+  }
+  
+  .button {
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    background-color: #f0ad4e;
+    color: #fff;
+  }
+  
+  .deleteButton {
+    background-color: #b01d18;
+    color: #fff;
+  }
+  
+  .likeButton {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .likeButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
